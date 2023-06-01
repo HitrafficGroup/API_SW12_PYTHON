@@ -1,0 +1,7 @@
+cd  C:\Users\Belisario_Ochoa\OneDrive - Hitraffic Technology\Escritorio\CENTRALIZACION\API_HT200_PYTHON\myenv\Scripts
+#para verificar si alguien  esta ocupando el socket
+netstat -aon | findstr :4001
+#matar el proceso
+TaskKill /PID 6604 /F
+
+TaskKill /PID 24584 /F
